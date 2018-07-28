@@ -1,22 +1,3 @@
-" Vim syntax file
-" Language:      K <k-framework.org>
-" Maintainers:   Andrei Ștefănescu <stefane1@illinois.edu>
-"                Traian Florin Șerbănuță <tserban2@illinois.edu>
-" Inspired from, and reusing most of the Maude file.
-" Below is the old copyright notice:
-"
-" Language:      Maude <http://maude.cs.uiuc.edu/>
-" Maintainer:    Steven N. Severinghaus <sns@severinghaus.org>
-" Last Modified: 2005-02-03
-" Version: 0.1
-"
-" To install, copy (or link) this file into the ~/.vim/syntax directory and add
-" the following to the ~/.vimrc file
-"
-" au BufRead,BufNewFile *.k set filetype=kframework
-" syn on
-
-
 " Quit if syntax file is already loaded
 if version < 600
   syntax clear
@@ -112,3 +93,4 @@ delcommand KHiLink
 let b:current_syntax = "kframework"
 
 "EOF vim: tw=78:ft=vim:ts=8
+
